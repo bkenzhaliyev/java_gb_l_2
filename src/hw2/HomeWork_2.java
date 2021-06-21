@@ -6,7 +6,7 @@ public class HomeWork_2 {
         isPositiveOrNegative(-90);
         System.out.println(isNegative(0));
         printWordNTimes("Hello world", 5);
-        for (int i = 1000; i <= 3000; i += 10){
+        for (int i = 1000; i <= 3000; i += 100){
             System.out.println("Год высокосный " + i + " - " +  isLeapYear(i));
         }
 
